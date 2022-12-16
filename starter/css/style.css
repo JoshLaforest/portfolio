@@ -1,3 +1,10 @@
+:root {
+  --bg-color: #130D14;
+  --lighter-bg-color: #2C1F30;
+  --accent: #E8A4FF;
+  --text-color: #E9D3F0;
+}
+
 * {
   box-sizing: border-box;
 }
