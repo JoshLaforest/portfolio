@@ -36,9 +36,17 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: .5em 1em;
 }
 
-nav ul {
+.navMenu {
   display: flex;
+  gap: 1.5em; 
+}
+
+.navLink {
   text-decoration: none;
+  color: var(--text-color);
+  text-transform: capitalize;
+  border-bottom: solid 2px transparent;
 }
