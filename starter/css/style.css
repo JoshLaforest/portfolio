@@ -30,6 +30,11 @@ h6 {
 
 h2 {
   margin-bottom: 1em;
+  font-size: clamp(1.6rem, 1.4667rem + 0.5926vw, 2rem);
+}
+
+h3 {
+  font-size: clamp(1.4rem, 1.3333rem + 0.2963vw, 1.6rem);
 }
 
 p {
@@ -38,6 +43,14 @@ p {
 
 img {
   max-width: 100%;
+}
+
+button {
+  background-color: var(--accent);
+  padding: .8em 2em;
+  border-radius: 1em;
+  font-size: inherit;
+  text-transform: capitalize;
 }
 
 .container-lg {
@@ -107,15 +120,14 @@ img {
 }
 
 .heroImg {
-  border-radius: 50%;
+  border-radius: 15em 10em 10em 15em;
   padding: .5em;
   border: solid 3px var(--text-color);
 }
 
-button {
-  background-color: var(--accent);
-  padding: .8em 2em;
-  border-radius: 1em;
-  font-size: inherit;
-  text-transform: capitalize;
+.about-section {
+  background-color: var(--lighter-bg-color);
+  padding: 4em 1em;
+  margin-bottom: 4em;
 }
+
