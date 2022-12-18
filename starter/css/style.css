@@ -204,3 +204,20 @@ button {
   background-size: cover;
   
 }
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-bottom: 3em;
+}
+
+#contact a {
+  text-decoration: none;
+  color: var(--text-color);
+}
