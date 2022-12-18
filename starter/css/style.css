@@ -231,3 +231,17 @@ button {
   text-decoration: none;
   color: var(--text-color);
 }
+
+@media screen and (max-width: 650px) {
+  .work-grid {
+    grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 18.75em);
+  grid-template-areas: 
+  "projectOne"
+  "projectTwo"
+  "projectThree"
+  "projectFour"
+  "projectFive"
+  ;
+  }
+}
