@@ -111,6 +111,9 @@ button {
   justify-content: center;
   align-items: center;
   gap: 2em;
+  background: linear-gradient(to right, rgba(0,0,0, .3), rgba(0,0,0, .6)),
+  url(/starter/images/hero-bg.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .heroHeader {
@@ -118,7 +121,7 @@ button {
 }
 
 .heroTitle {
-  font-size: 2.5em;
+  font-size: clamp(1.8rem, 1.5667rem + 1.0370vw, 2.5rem);
   font-weight: 900;
 }
 
@@ -259,6 +262,10 @@ button {
 @media screen and (max-width: 500px) {
   .hero {
     padding: 2em 1em;
+  }
+
+  .navbar {
+    flex-direction: column;
   }
 
   .about-section {
