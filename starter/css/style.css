@@ -223,13 +223,23 @@ button {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 2em;
+  gap: .5em 2em;
   margin-bottom: 3em;
 }
 
 #contact a {
   text-decoration: none;
   color: var(--text-color);
+}
+
+@media screen and (max-width: 800px) {
+  .hero {
+    padding: 3em 1em;
+  }
+
+  .about-section {
+    padding: 2em 1em;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -243,5 +253,19 @@ button {
   "projectFour"
   "projectFive"
   ;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero {
+    padding: 2em 1em;
+  }
+
+  .about-section {
+    margin-bottom: 2em;
+  }
+
+  #work {
+    margin-bottom: 2em;
   }
 }
