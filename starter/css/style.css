@@ -35,6 +35,7 @@ h2 {
 
 h3 {
   font-size: clamp(1.4rem, 1.3333rem + 0.2963vw, 1.6rem);
+  color: var(--lighter-bg-color);
 }
 
 p {
@@ -43,6 +44,13 @@ p {
 
 img {
   max-width: 100%;
+}
+
+header {
+  background-color: var(--lighter-bg-color);
+  padding: 1em;
+  border-bottom-right-radius: .5em;
+  width: max-content;
 }
 
 button {
@@ -131,3 +139,65 @@ button {
   margin-bottom: 4em;
 }
 
+#work {
+  padding: 0 1em;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 18.75em);
+  grid-template-areas: 
+  "projectOne projectOne"
+  "projectTwo projectThree"
+  "projectFour projectFive"
+  ;
+  gap: 1em;
+}
+
+.work-grid-item {
+  border-radius: 1em;
+  border: solid .3em var(--text-color);
+}
+
+.work-grid-item header {
+  background-color: var(--text-color);
+  color: var(--bg-color);
+}
+
+#projectOne {
+  grid-area: projectOne;
+  background-image: url(/starter/images/02-portfolio-1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#projectTwo {
+  grid-area: projectTwo;
+  background-image: url(/starter/images/02-portfolio-2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#projectThree {
+  grid-area: projectThree;
+  background-image: url(/starter/images/02-portfolio-3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#projectFour {
+  grid-area: projectFour;
+  background-image: url(/starter/images/02-portfolio-4.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+#projectFive {
+  grid-area: projectFive;
+  background-image: url(/starter/images/02-portfolio-1.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
