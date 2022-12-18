@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Source+Serif+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&family=Source+Serif+Pro:wght@600&display=swap');
 
 :root {
   --bg-color: #130D14;
@@ -54,12 +54,26 @@ header {
   padding: 1em;
 }
 
-button {
+.btn {
   background-color: var(--accent);
+  text-decoration: none;
   padding: .8em 2em;
   border-radius: 1em;
+  border: solid 2px var(--accent);
   font-size: inherit;
+  font-weight: 600;
   text-transform: capitalize;
+  box-shadow: 0 4px 0 0 rgb(151, 53, 184);
+  transition: 
+  transform ease .1s,
+  box-shadow ease .1s
+  ;
+}
+
+.btn:active {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 0 0 rgb(151, 53, 184);
+  color: var(--bg-color);
 }
 
 .container-lg {
@@ -132,7 +146,7 @@ button {
 .heroParagraph {
   width: 100%;
   max-width: 600px;
-  margin-bottom: 1.5em;
+  margin-bottom: 2.5em;
 }
 
 .heroImg {
