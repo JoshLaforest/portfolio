@@ -107,10 +107,9 @@ button {
 .hero {
   padding: 4em 1em;
   display: flex;
-  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
-  gap: 2em;
+  gap: 3em;
   background: linear-gradient(to right, rgba(0,0,0, .3), rgba(0,0,0, .6)),
   url(/starter/images/hero-bg.jpg) no-repeat center fixed;
   background-size: cover;
@@ -237,9 +236,12 @@ button {
   color: var(--text-color);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .hero {
     padding: 3em 1em;
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 2em;
   }
 
   .about-section {
