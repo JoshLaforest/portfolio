@@ -155,10 +155,17 @@ button {
 }
 
 .work-grid-item {
+  position: relative;
   border-radius: 1em;
   border: solid .3em var(--text-color);
   display: flex;
   align-items: flex-end;
+}
+
+.work-grid-item a {
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
 .work-grid-item header {
