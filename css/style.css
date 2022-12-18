@@ -210,28 +210,28 @@ header {
 
 #projectOne {
   grid-area: projectOne;
-  background-image: url(./images/02-portfolio-1.jpg);
+  background-image: url(/images/02-portfolio-1.jpg);
   background-position: center;
   background-size: cover;
 }
 
 #projectTwo {
   grid-area: projectTwo;
-  background-image: url(./images/02-portfolio-2.jpg);
+  background-image: url(/images/02-portfolio-2.jpg);
   background-position: center;
   background-size: cover;
 }
 
 #projectThree {
   grid-area: projectThree;
-  background-image: url(./images/02-portfolio-3.jpg);
+  background-image: url(/images/02-portfolio-3.jpg);
   background-position: center;
   background-size: cover;
 }
 
 #projectFour {
   grid-area: projectFour;
-  background-image: url(./images/02-portfolio-4.jpg);
+  background-image: url(/images/02-portfolio-4.jpg);
   background-position: center;
   background-size: cover;
   
@@ -239,7 +239,7 @@ header {
 
 #projectFive {
   grid-area: projectFive;
-  background-image: url(./images/02-portfolio-1.jpg);
+  background-image: url(/images/02-portfolio-1.jpg);
   background-position: center;
   background-size: cover;
   
