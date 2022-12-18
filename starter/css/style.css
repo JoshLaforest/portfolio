@@ -49,8 +49,6 @@ img {
 header {
   background-color: var(--lighter-bg-color);
   padding: 1em;
-  border-bottom-right-radius: .5em;
-  width: max-content;
 }
 
 button {
@@ -128,7 +126,7 @@ button {
 }
 
 .heroImg {
-  border-radius: 15em 10em 10em 15em;
+  border-radius: 15em 15em 0 0;
   padding: .5em;
   border: solid 3px var(--text-color);
 }
@@ -141,11 +139,12 @@ button {
 
 #work {
   padding: 0 1em;
+  margin-bottom: 4em;
 }
 
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 18.75em);
   grid-template-areas: 
   "projectOne projectOne"
@@ -158,11 +157,15 @@ button {
 .work-grid-item {
   border-radius: 1em;
   border: solid .3em var(--text-color);
+  display: flex;
+  align-items: flex-end;
 }
 
 .work-grid-item header {
   background-color: var(--text-color);
   color: var(--bg-color);
+  margin-bottom: 3em;
+  border-radius: 0 .5em .5em 0;
 }
 
 #projectOne {
