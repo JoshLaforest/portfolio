@@ -97,6 +97,8 @@ header {
 .brand {
   font-size: 1.3em;
   color: var(--accent);
+  padding: 0;
+  align-self: center;
 }
 
 .navbar {
@@ -105,20 +107,26 @@ header {
   z-index: 99;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: .5em 1em;
+  align-items: stretch;
+  padding: 0 1em;
+  box-shadow: 0 4px 20px 0 rgba(0,0,0,.2);
 }
 
 .navMenu {
-  display: flex;
-  gap: 1.5em; 
+  display: flex; 
 }
 
-.navLink {
+.link {
   text-decoration: none;
   color: var(--text-color);
   text-transform: capitalize;
   border-bottom: solid 2px transparent;
+  padding: 1em;
+}
+
+.link:hover {
+  color: var(--accent);
+  border-bottom: solid 2px var(--accent);
 }
 
 .hero {
@@ -288,6 +296,12 @@ header {
 
   .navbar {
     flex-direction: column;
+    align-items: center;
+    padding-top: .5em;
+  }
+
+  .link {
+    padding: .5em 1em;
   }
 
   .about-section {
@@ -296,5 +310,15 @@ header {
 
   #work {
     margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .navbar {
+    padding: .5em;
+  }
+
+  .link {
+    padding: .5em;
   }
 }
