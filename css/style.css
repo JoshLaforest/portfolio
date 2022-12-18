@@ -136,7 +136,7 @@ header {
   align-items: center;
   gap: 3em;
   background: linear-gradient(to right, rgba(0,0,0, .3), rgba(0,0,0, .6)),
-  url(/starter/images/hero-bg.jpg) no-repeat center fixed;
+  url(/images/hero-bg.jpg) no-repeat center fixed;
   background-size: cover;
   height: 100vh;
   width: 100vw;
@@ -209,28 +209,28 @@ header {
 
 #projectOne {
   grid-area: projectOne;
-  background-image: url(/starter/images/02-portfolio-1.jpg);
+  background-image: url(/images/02-portfolio-1.jpg);
   background-position: center;
   background-size: cover;
 }
 
 #projectTwo {
   grid-area: projectTwo;
-  background-image: url(/starter/images/02-portfolio-2.jpg);
+  background-image: url(/images/02-portfolio-2.jpg);
   background-position: center;
   background-size: cover;
 }
 
 #projectThree {
   grid-area: projectThree;
-  background-image: url(/starter/images/02-portfolio-3.jpg);
+  background-image: url(/images/02-portfolio-3.jpg);
   background-position: center;
   background-size: cover;
 }
 
 #projectFour {
   grid-area: projectFour;
-  background-image: url(/starter/images/02-portfolio-4.jpg);
+  background-image: url(/images/02-portfolio-4.jpg);
   background-position: center;
   background-size: cover;
   
@@ -238,7 +238,7 @@ header {
 
 #projectFive {
   grid-area: projectFive;
-  background-image: url(/starter/images/02-portfolio-1.jpg);
+  background-image: url(/images/02-portfolio-1.jpg);
   background-position: center;
   background-size: cover;
   
