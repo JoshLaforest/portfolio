@@ -295,6 +295,11 @@ header {
     padding: 2em 1em;
   }
 
+  .heroImg {
+    max-width: 15em;
+    height: auto;
+  }
+
   .navbar {
     flex-direction: column;
     align-items: center;
@@ -317,6 +322,10 @@ header {
 @media screen and (max-width: 350px) {
   .navbar {
     padding: .5em;
+  }
+
+  .heroImg {
+    max-width: 12em;
   }
 
   .link {
